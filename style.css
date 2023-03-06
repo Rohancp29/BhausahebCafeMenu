@@ -18,31 +18,29 @@ body {
 }
 
 .menu-items {
-    /* max-width: 1770px; */
+    max-width: 1770px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-@media only screen and (max-width: 779px) {
-    .menu-items {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  }
 
-.card {
+
+/* .card {
     min-width: 600px;
     margin: 0;
     padding: 0 10px;
     border: none;
     background: none;
-}
+} */
 
+.card{
+    
+    padding: 20px;
+}
 .card-body {
-    padding: 0;
-    padding: 0px 20px;
+    padding: 30px;
+   
 }
 
 .card img {
